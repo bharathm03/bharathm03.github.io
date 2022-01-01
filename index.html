@@ -1,0 +1,40 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script
+      type="text/javascript"
+      src="https://unpkg.com/meyda@5.3.0/dist/web/meyda.min.js"
+    ></script>
+    <script type="text/javascript" src="https://unpkg.com/yinjs"></script>
+    <script>
+      //init();
+    </script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <canvas id="visualizer" width="1024" height="800"></canvas>
+      <h1>Frequency (Hz)</h1>
+      <h2 id="frequency">0.0</h2>
+      <div>
+        <button onclick="startPitchDetection()">Start Pitch Detection</button>
+      </div>
+      <ul class="back">
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+        <li>6</li>
+        <li>7</li>
+        <li>8</li>
+        <li>9</li>
+        <li>10</li>
+        <li>11</li>
+        <li>12</li>
+      </ul>
+    </div>
+    <script src="scr.js" async></script>
+  </body>
+</html>
